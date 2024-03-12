@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+     
+    <meta charset="UTF-8">
+     
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Generated DataBase Output</title>
+     <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            border-color: black !important;
+
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            top: 0;
+        }
+
+        th:first-child {
+            width: 120px;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .cell-red {
+            color : red !important;
+        }
+
+        .cell-green {
+            color: green !important;
+        }
+
+        .cell-error {
+            background-color: yellow;
+        }
+        .cell-changed {
+            text-decoration: line-through;
+        }
+        .very-black {
+            color: black !important;
+        }
+        .dd {
+            font-style: italic;
+            font-size: 0.5rem;
+        }
+        .ss {
+            font-style: italic;
+            font-size: 0.5rem;
+        }
+        .right {
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+
+    <b><label id="changing">Generated DataBase Output</label></b>
+    <form class="right">
+        <b><label for="cars"></label></b>
+        <select name="cars" id="cars" onchange="goToLink(this.value)" required="">
+          <option style="display: none;" disabled="" selected>Select a time frame</option>
+          <optgroup label="Hours">
+            <option value="./1.html">1 hour</option>
+            <option value="./2.html">2 hour</option>
+            <option value="./3.html">3 hour</option>
+            <option value="./4.html">4 hour</option>
+            <option value="./5.html">5 hour</option>
+            <option value="./6.html">6 hour</option>
+            <option value="./7.html">7 hour</option>
+            <option value="./8.html">8 hour</option>
+            <option value="./9.html">9 hour</option>
+            <option value="./10.html">10 hour</option>
+            <option value="./11.html">11 hour</option>
+            <option value="./12.html">12 hour</option>
+            <option value="./13.html">13 hour</option>
+            <option value="./14.html">14 hour</option>
+            <option value="./15.html">15 hour</option>
+            <option value="./16.html">16 hour</option>
+            <option value="./17.html">17 hour</option>
+            <option value="./18.html">18 hour</option>
+            <option value="./19.html">19 hour</option>
+            <option value="./20.html">20 hour</option>
+            <option value="./21.html">21 hour</option>
+            <option value="./22.html">22 hour</option>
+            <option value="./23.html">23 hour</option>
+
+          </optgroup>
+          <optgroup label="Days Before">
+            <option value="./24.html">1 Day</option>
+            <option value="./48.html">2 Days</option>
+            <option value="./72.html">3 Days</option>
+          </optgroup>
+        </select>
+      </form>
+    
+      <script>
+        function goToLink(link) {
+          if (link !== "") {
+            window.location.href = link;
+          }
+        }
+        
+window.onload = function() {
+  var contentElement = document.getElementById('changing');
+  var url = window.location.pathname.split('/').pop().split('.')[0];
+  contentElement.textContent = 'Generated output for time frame ' + url + ' hour';
+}
+        
+ </script>
+    
+
+
+
+     <table>
+           <tr>
+                 <th>Models</th>
+                 <th>Rank</th>
+                 <th>ithome</th>
+                 <th>asusiran</th>
+                 <th>adak</th>
+                 <th>plazadigital</th>
+                 <th>technolife</th>
+                 <th>digikala</th>
+                 <th>afraa</th>
+                 <th>lipak</th>
+                 <th>lioncomputer</th>
+                 <th>fafait</th>
+               </tr>
+
